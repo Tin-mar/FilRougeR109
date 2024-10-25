@@ -10,4 +10,4 @@ Créer un site web pour s'initier aux bases de HTML et CSS
 
 Validation W3C de l'HTML et CSS.
 
-[Visualisation]( du site web.
+[Visualisation](https://tin-mar.github.io/FilRougeR109/) du site web.
