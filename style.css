@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #01080c;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #808080;
+}
+
+header p {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Yeseva One', sans-serif;
+    padding: 1.5em 0;
+}
+
+.div1 #point {
+    color: #0cd39b
+}
+
+header nav i {
+    margin: 1em 0.5em;
+    color:white;
+}
+
+.pres {
+    color: white;
+    font-family: 'Yeseva One', sans-serif;
+    margin: 0 120px;
+}
+
+#highlight {
+    color: #0cd39b;
+}
+
+#main-text {
+    font-size: 15px;
+    color: #858880;
+    max-width: 800px;
+    margin: 0 120px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.li1 ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.li1 ul li {
+    display: inline;
+    color: white;
+    font-size: 15px;
+    padding: 0.5em;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.menu-highlight {
+    background-color: #0cd39b;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    width: 80vw;
+    margin: 0 120px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+    padding: 15px;
+    font-size: 10px;
+}
+
+@media (max-width: 1024px) {
+    header {
+        font-size: 10pt;
+    }
+
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .image:nth-child(-n+9) {
+        display: block;
+    }
+}
